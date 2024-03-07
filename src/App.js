@@ -1,24 +1,30 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Header from './components/header';
+import Footer from './components/footer';
+import Hosting from './components/hostingcards';
+import Deals from './components/deals';
+import Top from './components/topsection';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="min-h-screen bg-[#FBFCFD]">
+      {/* Nav bar */}
+      <Header/>
+
+      {/* Main Content */}
+      <div className="container">
+        <div className='flex flex-col px-64 text-left mt-6'>
+          <Top/>
+          <Hosting/>
+          <Deals/>
+        </div>
+      </div>
+      
+      {/*  Footer */}
+      <Footer/>
     </div>
+
   );
 }
 
