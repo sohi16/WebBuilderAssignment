@@ -20,7 +20,7 @@ Make sure you have the following software installed on your machine:
 2. Open project directory
    
    ```bash
-   cd your-project
+   cd WebBuilderAssignment
 
 3. Install dependencies
    
