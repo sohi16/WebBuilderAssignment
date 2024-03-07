@@ -18,10 +18,16 @@ Make sure you have the following software installed on your machine:
    git clone https://github.com/sohi16/WebBuilderAssignment.git
    
 2. Open project directory
+   
+   ```bash
    cd your-project
 
 3. Install dependencies
-   cd your-project
+   
+   ```bash
+   npm install
 
 4. Run Project
+
+   ```bash
    npm start
